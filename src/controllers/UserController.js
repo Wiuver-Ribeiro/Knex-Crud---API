@@ -1,6 +1,5 @@
-// const { update } = require('../database');
+
 const knex = require('../database');
-// const { delete } = require('../routes');
 
 module.exports = {
   async index(request, response) {
