@@ -10,4 +10,13 @@
 ## Comando SQL
 
 - INSERT 
-  * knex('table').insert({valores})
+  * knex('users').insert({name: 'Wiuver'})
+
+- SELECT 
+  * knex('users').where('id = id).select('users.name')
+
+- DELETE 
+  * knex('users').where({ id }).delete();
+
+-UPDATE 
+  * knex('users').update({name}).where({ id });
